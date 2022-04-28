@@ -1,0 +1,1 @@
+Get-Item c:\windows\system32\macromed\flash\flash*.ocx | select *
