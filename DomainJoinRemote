@@ -1,0 +1,4 @@
+$Session = New-PSsession -Computername YourComputer
+Enter-PSSession $Session
+Test-ComputerSecureChannel -Repair -Credential (Get-Credential)
+Remove-PSSession
